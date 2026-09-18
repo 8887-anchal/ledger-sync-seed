@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+ #!/usr/bin/env bash
 # Compiles and runs the pipeline against fixtures/corpus-a.jsonl.
 # Needs a JDK 21 and nothing else - no network, no database, no Gradle.
 set -euo pipefail

@@ -22,6 +22,7 @@ public final class Dates {
             DateTimeFormatter.ofPattern("dd-MM-yy HH:mm", Locale.ENGLISH),
             DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm", Locale.ENGLISH),
             DateTimeFormatter.ofPattern("dd MMM yy HH:mm", Locale.ENGLISH),
+            DateTimeFormatter.ofPattern("dd-MMM-yyyy HH:mm", Locale.ENGLISH),
             DateTimeFormatter.ofPattern("dd-MMM-yyyy HH:mm", Locale.ENGLISH));
 
     /** Parse a local date-time written by a bank, as IST. */
